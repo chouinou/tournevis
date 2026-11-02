@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
     <title>Liste des ateliers - TOURNEVIS</title>
 </head>
 <body>
-    <header>
-         <a href="index.html">
+    <header class="site-header">
+        <a class="organization-title" href="index.html">
             <h1>TOURNEVIS</h1>
             <p>Repair Café – Apprendre à réparer ensemble.</p>
         </a>
     </header>
 
-    <main>
+    <main class="page-index">
         <div>
-            <form>
-                <label>Rechercher un atelier :</label>
-                <input placeholder="Ex : vélo, informatique, couture...">
+            <form class="search-form">
+                <label for="recherche">Rechercher un atelier :</label>
+                <input
+                    type="search"
+                    id="recherche"
+                    name="recherche"
+                    placeholder="Ex : vélo, informatique, couture..."
+                >
 
-                <label>Trier par :</label>
-                <select>
+                <label for="tri">Trier par :</label>
+                <select id="tri" name="tri">
                     <option value="">Tous les ateliers</option>
                     <option value="date">Date</option>
                     <option value="lieu">Lieu</option>
@@ -28,11 +34,10 @@
                 </select>
 
                 <button type="submit">Je trouve mon atelier !</button>
-
             </form>
         </div>
-        <div>
-            <article>
+        <div class="workshop-grid">
+            <article class="workshop-card">
                 <h2>Petit électroménager</h2>
 
                 <p><strong>Lieu :</strong> Maison des Amandiers</p>
@@ -40,24 +45,33 @@
                 <p><strong>Horaires :</strong> 10 h – 13 h</p>
                 <p><strong>Places restantes :</strong> 4 / 8</p>
 
-                <a>En savoir plus</a>
-                <a>Réserver maintenant</a>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                        En savoir plus
+                    </a>
 
+                    <a class="button" href="reservation.html">
+                        Réserver maintenant
+                    </a>
+                </div>
             </article>
 
-            <article>
+            <article class="workshop-card workshop-card--full">
                 <h2>Vélo</h2>
 
                 <p><strong>Lieu :</strong> Atelier Tournevis</p>
                 <p><strong>Date :</strong> Samedi 7 novembre</p>
                 <p><strong>Horaires :</strong> 14 h – 17 h</p>
-                <p><strong>Places restantes :</strong> Complet (0 / 6)</p>
-
-                <a>En savoir plus</a>
-                <p><strong>Atelier complet</strong></p>
+                <p><strong>Places restantes :</strong> 0 / 6</p>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                            En savoir plus
+                    </a>
+                    <p class="button">COMPLET – Aucune place disponible</p>
+                </div>
             </article>
 
-            <article >
+            <article class="workshop-card">
                 <h2>Informatique et téléphone</h2>
 
                 <p><strong>Lieu :</strong> Atelier Tournevis</p>
@@ -65,11 +79,18 @@
                 <p><strong>Horaires :</strong> 18 h – 21 h</p>
                 <p><strong>Places restantes :</strong> 2 / 6</p>
 
-                <a>En savoir plus</a>
-                <a>Réserver maintenant</a>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                        En savoir plus
+                    </a>
+
+                    <a class="button" href="reservation.html">
+                        Réserver maintenant
+                    </a>
+                </div>
             </article>
 
-            <article >
+            <article class="workshop-card">
                 <h2>Petit électroménager</h2>
 
                 <p><strong>Lieu :</strong> Médiathèque du Parc</p>
@@ -77,11 +98,18 @@
                 <p><strong>Horaires :</strong> 10 h – 13 h</p>
                 <p><strong>Places restantes :</strong> 6 / 8</p>
 
-                <a>En savoir plus</a>
-                <a>Réserver maintenant</a>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                        En savoir plus
+                    </a>
+
+                    <a class="button" href="reservation.html">
+                        Réserver maintenant
+                    </a>
+                </div>
             </article>
 
-            <article >
+            <article class="workshop-card">
                 <h2>Couture et textile</h2>
 
                 <p><strong>Lieu :</strong> Médiathèque du Parc</p>
@@ -89,11 +117,18 @@
                 <p><strong>Horaires :</strong> 14 h – 17 h</p>
                 <p><strong>Places restantes :</strong> 5 / 8</p>
 
-                <a>En savoir plus</a>
-                <a>Réserver maintenant</a>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                        En savoir plus
+                    </a>
+
+                    <a class="button" href="reservation.html">
+                        Réserver maintenant
+                    </a>
+                </div>
             </article>
 
-            <article >
+            <article class="workshop-card">
                 <h2>Vélo</h2>
 
                 <p><strong>Lieu :</strong> Atelier Tournevis</p>
@@ -101,11 +136,18 @@
                 <p><strong>Horaires :</strong> 10 h – 13 h</p>
                 <p><strong>Places restantes :</strong> 3 / 6</p>
 
-                <a>En savoir plus</a>
-                <a>Réserver maintenant</a>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                        En savoir plus
+                    </a>
+
+                    <a class="button" href="reservation.html">
+                        Réserver maintenant
+                    </a>
+                </div>
             </article>
 
-            <article >
+            <article class="workshop-card">
                 <h2>Jouets et objets du quotidien</h2>
 
                 <p><strong>Lieu :</strong> Maison des Amandiers</p>
@@ -113,38 +155,49 @@
                 <p><strong>Horaires :</strong> 14 h – 17 h</p>
                 <p><strong>Places restantes :</strong> 7 / 10</p>
 
-                <a>En savoir plus</a>
-                <a>Réserver maintenant</a>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                        En savoir plus
+                    </a>
+
+                    <a class="button" href="reservation.html">
+                        Réserver maintenant
+                    </a>
+                </div>
             </article>
 
-            <article >
+            <article class="workshop-card workshop-card--full">
                 <h2>Informatique et téléphone</h2>
 
                 <p><strong>Lieu :</strong> Médiathèque du Parc</p>
                 <p><strong>Date :</strong> Jeudi 26 novembre</p>
                 <p><strong>Horaires :</strong> 18 h – 21 h</p>
-                <p><strong>Places restantes :</strong> Complet (0 / 6)</p>
-
-                <a>En savoir plus</a>
-                <p><strong>Atelier complet</strong></p>
+                <p><strong>Places restantes :</strong> 0 / 6</p>
+                <div class="card-actions">
+                    <a class="button button-secondary" href="seance.html">
+                            En savoir plus
+                    </a>
+                    <p class="button">COMPLET – Aucune place disponible</p>
+                </div>
             </article>
         </div>
     </main>
         
-    <footer>
-        <div>
+    <footer class="site-footer">
+        <section>
             <h2>Association TOURNEVIS</h2>
-            <a href="mailto:fauxmail@tournevis.fr">fauxmail@tournevis.fr</a>
-        </div>
+            <a href="mailto:fauxmail@tournevis.fr">
+                fauxmail@tournevis.fr
+            </a>
+        </section>
 
-        <div>
+        <section>
             <h2>Suivez-nous</h2>
-
             <ul>
                 <li><a href="">Facebook</a></li>
                 <li><a href="">Instagram</a></li>
             </ul>
-        </div>
+        </section>
     </footer>
 </body>
 </html>

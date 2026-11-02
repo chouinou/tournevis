@@ -4,10 +4,12 @@
   <h1>Tournevis repair café</h1>
   
   <p>Le frontend d'un site web simple pour une assocation qui organise un Repair café.</p>
+
+  <img src="docs/screenshot.png" alt="Capture d'écran de la page d'accueil">
 </div>
 
 <!-- About the Project -->
-## :star2: À propos du projetp
+## :star2: À propos du projet
 
 **Règles :**
 
@@ -26,11 +28,11 @@ Créez un persona principal pour Tournevis
 Dessinez le parcours de votre persona pour l'objectif "Réserver une séance pour réparer son objet"
 * [X] **Étape 3 : Le découpage en bloc** -
 Croquis rapide de la version mobile et de ses différents éléments
-* [ ] **Étape 4 : Le HTML** -
+* [X] **Étape 4 : Le HTML** -
 4 pages en HTML sémantique pur sans CSS
-* [ ] **Étape 5 :** Le CSS mobile first -
+* [X] **Étape 5 :** Le CSS mobile first -
 CSS orienté mobile 
-* [ ] **Étape 6 :** Le responsive -
+* [X] **Étape 6 :** Le responsive -
 Le site doit être responsive sur des écrans plus grands.
 
 <!-- Etape 1 -->
@@ -52,3 +54,13 @@ Le site doit être responsive sur des écrans plus grands.
     <li>un bouton "Réserver maintenant" sur la carte de l'atelier pour Emma qui connaît déjà bien TOURNEVIS</li>
     <li>un écran d'alerte quand la réservation nécessite des conditions précises (matériel nécessaire pour l'atelier par exemple)   </li>
 </ul>
+
+<!--Tools -->
+## :tools: Les outils utilisés
+
+- **[Diagram](https://app.diagrams.net/)** : pour la création de l'user flow.
+- **[Validateur HTML W3](https://validator.w3.org/)** : pour vérifier la cohérence de la structure du code HTML.
+- **[ChatGPT](chatgpt.com) modèle gratuit** : une fois la structure d'une carte HTML mise en place, pour générer le reste des cartes à partir du tableau donné dans l'énoncé plutôt que de le remplir à la main.
+- **[RealtimeColors](/www.realtimecolors.com)** : pour la recherche et l'ajustement de l'identité visuelle, notamment pour les contrastes.
+- **Le reset CSS de [Josh Cormeau](https://www.joshwcomeau.com/css/custom-css-reset/)** : pour remettre à zéro et harmoniser le CSS sur différents navigateurs
+- **[ChatGPT](chatgpt.com) modèle gratuit** : pour m'aider à bien calibrer certains éléments responsive sur les différents supports de navigation, à partir de la version mobile-first (notamment pour les très petits et très grands écrans)

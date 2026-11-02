@@ -3,54 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
     <title>Petit électroménager</title>
 </head>
 <body>
-    <header>
-         <a href="index.html">
+    <header class="site-header">
+        <a class="organization-title" href="index.html">
             <h1>TOURNEVIS</h1>
             <p>Repair Café – Apprendre à réparer ensemble.</p>
         </a>
     </header>
 
-    <main>
-        <h1>Atelier Petit électroménager</h1>
+    <main class="page-seance">
+        <div class="session-layout">
 
-        <div>
-            <h2>Informations pratiques</h2>
+            <h1 class="session-title">
+                Atelier Petit électroménager
+            </h1>
 
-            <dl>
-                <dt><strong>Date</strong></dt>
-                <dd>Samedi 7 novembre</dd>
+            <section class="session-info">
+                <h2>Informations pratiques</h2>
 
-                <dt><strong>Horaires</strong></dt>
-                <dd>De 10 h à 13 h</dd>
+                <dl>
+                    <dt><strong>Date</strong></dt>
+                    <dd>Samedi 7 novembre</dd>
 
-                <dt><strong>Lieu</strong></dt>
-                <dd>Maison des Amandiers</dd>
+                    <dt><strong>Horaires</strong></dt>
+                    <dd>De 10 h à 13 h</dd>
 
-                <dt><strong>Places restantes</strong></dt>
-                <dd>4 places disponibles sur 8</dd>
-            </dl>
+                    <dt><strong>Lieu</strong></dt>
+                    <dd>Maison des Amandiers</dd>
 
-            <p>
-                <strong>Disponibilité :</strong>
-                Il reste encore X places pour cette séance.
-            </p>
-            <a href="reservation.html">Réserver ma place</a>
+                    <dt><strong>Places restantes</strong></dt>
+                    <dd>4 places disponibles sur 8</dd>
+                </dl>
 
-        </div>
+                <a class="button" href="reservation.html">
+                    Réserver ma place
+                </a>
+        </section>
 
-        <div>
+        <section class="session-description">
             <h2>Description de l'atelier</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
 
-        </div>
+        </section>
 
-        <div>
+        <section class="session-material">
             <h2>Que faut-il apporter ?</h2>
 
             <p>Pour profiter pleinement de cet atelier, pensez à apporter :</p>
@@ -60,36 +62,39 @@
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
             </ul>
+        </section>
 
-        </div>
-        <div>
+        <section class="session-cta">
             <h2>Envie de participer ?</h2>
 
             <p>Il reste 4 places disponibles pour cet atelier.</p>
-            <a href="reservation.html">Réserver maintenant</a>
-        </div>
+            <a class="button" href="reservation.html">
+                Réserver maintenant
+            </a>
+        </section>
 
-        <nav>
+        <nav class="session-back">
             <a href="index.html">
                 Retour à la liste des ateliers
             </a>
         </nav>
     </main>
     
-   <footer>
-        <div>
+   <footer class="site-footer">
+        <section>
             <h2>Association TOURNEVIS</h2>
-            <a href="mailto:fauxmail@tournevis.fr">fauxmail@tournevis.fr</a>
-        </div>
+            <a href="mailto:fauxmail@tournevis.fr">
+                fauxmail@tournevis.fr
+            </a>
+        </section>
 
-        <div>
+        <section>
             <h2>Suivez-nous</h2>
-
             <ul>
                 <li><a href="">Facebook</a></li>
                 <li><a href="">Instagram</a></li>
             </ul>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
