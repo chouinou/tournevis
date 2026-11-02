@@ -7,7 +7,7 @@
 </div>
 
 <!-- About the Project -->
-## :star2: À props du projet
+## :star2: À propos du projet
 
 **Règles :**
 
@@ -20,24 +20,24 @@
 <!-- Roadmap -->
 ## :compass: Roadmap
 
-* [X] **Étape 1 : Le persona**
+* [X] **Étape 1 : Le persona** -
 Créez un persona principal pour Tournevis
-* [ ] **Étape 2 : Le userflow**
+* [ ] **Étape 2 : Le userflow** -
 Dessinez le parcours de votre persona pour l'objectif "Réserver une séance pour réparer son objet"
-* [ ] **Étape 3 : Le découpage en bloc**
+* [ ] **Étape 3 : Le découpage en bloc** -
 Croquis rapide de la version mobile et de ses différents éléments
-* [ ] **Étape 4 : Le HTML**
+* [ ] **Étape 4 : Le HTML** -
 4 pages en HTML sémantique pur sans CSS
-* [ ] **Étape 5 :** Le CSS mobile first
-CSS orienté mobile
-* [ ] **Étape 6 :** Le responsive
+* [ ] **Étape 5 :** Le CSS mobile first -
+CSS orienté mobile 
+* [ ] **Étape 6 :** Le responsive -
 Le site doit être responsive sur des écrans plus grands.
 
 <!-- Etape 1 -->
 ## :one: Étape 1 : Le persona
 
 <div align="center">
-    <h1>Emma, notre persona</h1>
+    <h2>Emma, notre persona</h1>
     <img src="README_ressources/emma_persona.png" alt="example persona"/>
 </div>
 
