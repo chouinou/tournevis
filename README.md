@@ -22,9 +22,9 @@
 
 * [X] **Étape 1 : Le persona** -
 Créez un persona principal pour Tournevis
-* [ ] **Étape 2 : Le userflow** -
+* [X] **Étape 2 : Le userflow** -
 Dessinez le parcours de votre persona pour l'objectif "Réserver une séance pour réparer son objet"
-* [ ] **Étape 3 : Le découpage en bloc** -
+* [X] **Étape 3 : Le découpage en bloc** -
 Croquis rapide de la version mobile et de ses différents éléments
 * [ ] **Étape 4 : Le HTML** -
 4 pages en HTML sémantique pur sans CSS
@@ -38,11 +38,17 @@ Le site doit être responsive sur des écrans plus grands.
 
 <div align="center">
     <h2>Emma a 37 ans. Elle connaît bien l'association et participe souvent à des ateliers de TOURNEVIS quand elle a un appareil spécifique à réparer.</h2>
-    <img src="README_ressources/emma_persona.png" alt="example persona"/>
+    <img src="docs/emma_persona.png" alt="example persona"/>
 </div>
 
 <!-- Etape 2 -->
 ## :two: Étape 2 : Le userflow
 <div align="center">
-    <img src="./docs/user-flow.png" alt="example userflow"/>
+    <img src="docs/emma_userflow.png" alt="example userflow"/>
+    <p>Emma est pressé et sait ce qu'elle veut. Pour faciliter son usage, je prends les trois décisions suivantes :</p>
+    <ul>
+        <li>une champ de recherche avec des filtres pour trouver rapidement son atelier</li>
+        <li>un bouton "Réserver maintenant" sur la carte de l'atelier pour Emma qui connaît déjà bien TOURNEVIS</li>
+        <li>un écran d'alerte quand la réservation nécessite des conditions précises (matériel nécessaire pour l'atelier par exemple)   </li>
+    </ul>
 </div>
