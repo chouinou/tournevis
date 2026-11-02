@@ -7,18 +7,172 @@
 </head>
 <body>
     <header>
-        <!-- Un header avec le logo cliquable qui ramène vers la liste des ateliers -->
+         <a href="index.html">
+            <h1>TOURNEVIS</h1>
+            <p>Repair Café – Apprendre à réparer ensemble.</p>
+        </a>
     </header>
 
-    <section>
-        <!-- Une section avec un formulaire de réservation à remplir avec les informations nécessaires -->
+    <main>
 
-        <!-- Un bouton pour confirmer la réservation -->
-    </section>
+        <h1>Réserver votre atelier</h1>
+
+        <p>
+            Complétez le formulaire ci-dessous pour réserver votre place
+            à notre atelier de réparation.
+        </p>
+
+        <div>
+            <h2>Votre séance</h2>
+
+            <dl>
+                <dt><strong>Type d'objet :</strong></dt>
+                <dd>Petit électroménager</dd>
+
+                <dt><strong>Date :</strong></dt>
+                <dd>Samedi 7 novembre</dd>
+
+                <dt><strong>Horaire :</strong></dt>
+                <dd>10 h – 13 h</dd>
+
+                <dt><strong>Lieu :</strong></dt>
+                <dd>Maison des Amandiers</dd>
+            </dl>
+
+        </div>
+
+        <div>
+
+            <h2>Vos informations de réservation</h2>
+
+            <form action="confirmation.html" method="get">
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+
+                    <p>
+                        <label for="nom">Nom :</label>
+                        <input
+                            type="text"
+                            id="nom"
+                            name="nom"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="prenom">Prénom :</label>
+                        <input
+                            type="text"
+                            id="prenom"
+                            name="prenom"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Adresse e-mail :</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="telephone">Téléphone (facultatif) :</label>
+                        <input
+                            type="tel"
+                            id="telephone"
+                            name="telephone"
+                        >
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre objet</legend>
+                    <p>
+                        <label for="objet">
+                            Quel objet souhaitez-vous réparer ?
+                        </label>
+
+                        <input
+                            type="text"
+                            id="objet"
+                            name="objet"
+                            placeholder="Exemple d'objet"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="panne">
+                            Décrivez la panne en quelques mots :
+                        </label>
+
+                        <textarea
+                            id="panne"
+                            name="panne"
+                            rows="5"
+                            cols="40"
+                            placeholder="Exemple de description de la panne"
+                            required
+                        ></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Conditions de réparation</legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="conditions"
+                            name="conditions"
+                            required
+                        >
+
+                        <label for="conditions">
+                            J'ai compris que la réparation n'est pas garantie.
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">
+                        Réserver
+                    </button>
+                </p>
+            </form>
+
+        </div>
+
+        <nav>
+            <a href="seance.html">
+                Retour à la présentation de l'atelier
+            </a>
+            <a href="index.html">
+                Retour à la liste des ateliers
+            </a>
+        </nav>
+
+    </main>
     
-    
-    <footer>
-        <!-- Un footer avec les informations pratiques --> 
-    </footer>    
+   <footer>
+    <!-- Un footer avec les informations pratiques --> 
+        <section>
+            <h2>Association TOURNEVIS</h2>
+            <a href="mailto:fauxmail@tournevis.fr">fauxmail@tournevis.fr</a>
+        </section>
+
+        <section>
+            <h2>Suivez-nous</h2>
+
+            <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>

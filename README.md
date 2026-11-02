@@ -45,10 +45,10 @@ Le site doit être responsive sur des écrans plus grands.
 ## :two: Étape 2 : Le userflow
 <div align="center">
     <img src="docs/emma_userflow.png" alt="example userflow"/>
-    <p>Emma est pressé et sait ce qu'elle veut. Pour faciliter son usage, je prends les trois décisions suivantes :</p>
-    <ul>
-        <li>une champ de recherche avec des filtres pour trouver rapidement son atelier</li>
-        <li>un bouton "Réserver maintenant" sur la carte de l'atelier pour Emma qui connaît déjà bien TOURNEVIS</li>
-        <li>un écran d'alerte quand la réservation nécessite des conditions précises (matériel nécessaire pour l'atelier par exemple)   </li>
-    </ul>
 </div>
+<p>Emma est pressée et sait ce qu'elle veut. Pour faciliter son usage, je prends les trois décisions suivantes :</p>
+<ul>
+    <li>une champ de recherche avec des filtres pour trouver rapidement son atelier</li>
+    <li>un bouton "Réserver maintenant" sur la carte de l'atelier pour Emma qui connaît déjà bien TOURNEVIS</li>
+    <li>un écran d'alerte quand la réservation nécessite des conditions précises (matériel nécessaire pour l'atelier par exemple)   </li>
+</ul>
