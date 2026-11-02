@@ -2,6 +2,7 @@
 
   <h1>Tournevis repair café</h1>
   <p>Le frontend d'un site web simple pour une assocation qui organise un Repair café.</p>
+  <p>Une version de démonstration est disponible sur <a href="https://chouinou.github.io/tournevis/">ce lien</a> !</p>
   <img src="docs/screenshot.png" alt="Capture d'écran de la page d'accueil">
 </div>
 
