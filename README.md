@@ -7,7 +7,7 @@
 </div>
 
 <!-- About the Project -->
-## :star2: À propos du projet
+## :star2: À propos du projetp
 
 **Règles :**
 
@@ -37,9 +37,12 @@ Le site doit être responsive sur des écrans plus grands.
 ## :one: Étape 1 : Le persona
 
 <div align="center">
-    <h2>Emma, notre persona</h1>
+    <h2>Emma a 37 ans. Elle connaît bien l'association et participe souvent à des ateliers de TOURNEVIS quand elle a un appareil spécifique à réparer.</h2>
     <img src="README_ressources/emma_persona.png" alt="example persona"/>
 </div>
 
 <!-- Etape 2 -->
 ## :two: Étape 2 : Le userflow
+<div align="center">
+    <img src="./docs/user-flow.png" alt="example userflow"/>
+</div>
