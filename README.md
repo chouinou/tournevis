@@ -1,23 +1,20 @@
-
 <div align="center">
 
   <h1>Tournevis repair café</h1>
-  
   <p>Le frontend d'un site web simple pour une assocation qui organise un Repair café.</p>
-
   <img src="docs/screenshot.png" alt="Capture d'écran de la page d'accueil">
 </div>
 
 <!-- About the Project -->
 ## :star2: À propos du projet
 
-**Règles :**
+**Cadre du projet :**
 
-- **Travail individuel.** Vous pouvez échanger des idées, pas du code.
-- **Pas de maquette Figma aujourd'hui.** Vous passez du user flow au code, avec un simple découpage en blocs sur papier.
-- **HTML et CSS uniquement**, sans framework ni bibliothèque, sans JavaScript.
-- **Cours, slides, documentation et IA autorisés**, à condition de l'indiquer dans le README : quel outil, pour quoi faire.
-- **Vous devez pouvoir expliquer chaque ligne de votre code.** Une ligne que vous ne savez pas expliquer ne compte pas.
+- <u>Travail individuel :</u> Vous pouvez échanger des idées, pas du code.
+- <u>Pas de maquette Figma aujourd'hui :</u> Vous passez du user flow au code, avec un simple découpage en blocs sur papier.
+- <u>HTML et CSS uniquement :</u> sans framework ni bibliothèque, sans JavaScript.
+- <u>Cours, slides, documentation et IA autorisés :</u> à condition de l'indiquer dans le README : quel outil, pour quoi faire.
+- <u>Vous devez pouvoir expliquer chaque ligne de votre code:</u> Une ligne que vous ne savez pas expliquer ne compte pas.
 
 <!-- Roadmap -->
 ## :compass: Roadmap
@@ -39,7 +36,7 @@ Le site doit être responsive sur des écrans plus grands.
 ## :one: Étape 1 : Le persona
 
 <div align="center">
-    <h2>Emma a 37 ans. Elle connaît bien l'association et participe souvent à des ateliers de TOURNEVIS quand elle a un appareil spécifique à réparer.</h2>
+    <h3>Emma a 37 ans. Elle connaît bien l'association et participe souvent à des ateliers de TOURNEVIS quand elle a un appareil spécifique à réparer.</h3>
     <img src="docs/emma_persona.png" alt="example persona"/>
 </div>
 
@@ -47,8 +44,9 @@ Le site doit être responsive sur des écrans plus grands.
 ## :two: Étape 2 : Le userflow
 <div align="center">
     <img src="docs/emma_userflow.png" alt="example userflow"/>
+    <p>Emma est pressée et sait ce qu'elle veut. Pour faciliter son usage, je prends les trois décisions suivantes :</p>
 </div>
-<p>Emma est pressée et sait ce qu'elle veut. Pour faciliter son usage, je prends les trois décisions suivantes :</p>
+
 <ul>
     <li>une champ de recherche avec des filtres pour trouver rapidement son atelier</li>
     <li>un bouton "Réserver maintenant" sur la carte de l'atelier pour Emma qui connaît déjà bien TOURNEVIS</li>
@@ -56,7 +54,7 @@ Le site doit être responsive sur des écrans plus grands.
 </ul>
 
 <!--Tools -->
-## :tools: Les outils utilisés
+## :wrench: Les outils utilisés
 
 - **[Diagram](https://app.diagrams.net/)** : pour la création de l'user flow.
 - **[Validateur HTML W3](https://validator.w3.org/)** : pour vérifier la cohérence de la structure du code HTML.
